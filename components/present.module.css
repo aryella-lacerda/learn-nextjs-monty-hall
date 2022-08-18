@@ -1,0 +1,35 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.lid {
+  height: 25px;
+  width: 100px;
+  background-color: #568e8f;
+}
+
+.body {
+  height: 60px;
+  width: 80px;
+  background-color: cadetblue;
+}
+
+.horizontalBow {
+  position: absolute;
+  top: 45px;
+  height: 15px;
+  width: 80px;
+  background-color: red;
+}
+
+.verticalBow {
+  position: absolute;
+  height: 85px;
+  width: 15px;
+  background-color: red;
+}
